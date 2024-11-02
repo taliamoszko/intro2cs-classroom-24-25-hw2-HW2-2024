@@ -105,7 +105,7 @@
       "setup": "javac Cheers.java",
       "run": "java Cheers RUNI 5",
       "input": "",  
-      "output": "Give me an R: R!\nGive me a U: U!\nGive me an N: N!\nGive me an I: I!\nWhat does that spell?\nRUNI!!!\nRUNI!!!\nRUNI!!!\nRUNI!!!\nRUNI!!!",
+      "output": "Give me an R: R!\nGive me a  U: U!\nGive me an N: N!\nGive me an I: I!\nWhat does that spell?\nRUNI!!!\nRUNI!!!\nRUNI!!!\nRUNI!!!\nRUNI!!!",
       "comparison": "included",
       "timeout": 10,
       "points": 2
@@ -115,7 +115,7 @@
       "setup": "javac Cheers.java",
       "run": "java Cheers Go 3",
       "input": "",  
-      "output": "Give me a G: G!\nGive me an O: O!\nWhat does that spell?\nGO!!!\nGO!!!\nGO!!!",
+      "output": "Give me a  G: G!\nGive me an O: O!\nWhat does that spell?\nGO!!!\nGO!!!\nGO!!!",
       "comparison": "included",
       "timeout": 10,
       "points": 2
@@ -125,7 +125,7 @@
       "setup": "javac Cheers.java",
       "run": "java Cheers HaPPy 2",
       "input": "",  
-      "output": "Give me an H: H!\nGive me an A: A!\nGive me a P: P!\nGive me a P: P!\nGive me a Y: Y!\nWhat does that spell?\nHAPPY!!!\nHAPPY!!!",
+      "output": "Give me an H: H!\nGive me an A: A!\nGive me a  P: P!\nGive me a  P: P!\nGive me a  Y: Y!\nWhat does that spell?\nHAPPY!!!\nHAPPY!!!",
       "comparison": "included",
       "timeout": 10,
       "points": 2
@@ -135,7 +135,7 @@
       "setup": "javac Cheers.java",
       "run": "java Cheers wool 4",
       "input": "",  
-      "output": "Give me a W: W!\nGive me an O: O!\nGive me an O: O!\nGive me an L: L!\nWhat does that spell?\nWOOL!!!\nWOOL!!!\nWOOL!!!\nWOOL!!!",
+      "output": "Give me a  W: W!\nGive me an O: O!\nGive me an O: O!\nGive me an L: L!\nWhat does that spell?\nWOOL!!!\nWOOL!!!\nWOOL!!!\nWOOL!!!",
       "comparison": "included",
       "timeout": 10,
       "points": 2
@@ -145,7 +145,7 @@
       "setup": "javac Cheers.java",
       "run": "java Cheers YAY 1",
       "input": "",  
-      "output": "Give me a Y: Y!\nGive me an A: A!\nGive me a Y: Y!\nWhat does that spell?\nYAY!!!",
+      "output": "Give me a  Y: Y!\nGive me an A: A!\nGive me a  Y: Y!\nWhat does that spell?\nYAY!!!",
       "comparison": "included",
       "timeout": 10,
       "points": 2
@@ -155,7 +155,7 @@
       "setup": "javac Cheers.java",
       "run": "java Cheers EXceL 2",
       "input": "",
-      "output": "Give me an E: E!\nGive me an X: X!\nGive me a C: C!\nGive me an E: E!\nGive me an L: L!\nWhat does that spell?\nEXCEL!!!\nEXCEL!!!",
+      "output": "Give me an E: E!\nGive me an X: X!\nGive me a  C: C!\nGive me an E: E!\nGive me an L: L!\nWhat does that spell?\nEXCEL!!!\nEXCEL!!!",
       "comparison": "included",
       "timeout": 10,
       "points": 2
@@ -165,7 +165,7 @@
       "setup": "javac Cheers.java",
       "run": "java Cheers FAMOUS 3",
       "input": "",
-      "output": "Give me an F: F!\nGive me an A: A!\nGive me an M: M!\nGive me an O: O!\nGive me a U: U!\nGive me an S: S!\nWhat does that spell?\nFAMOUS!!!\nFAMOUS!!!\nFAMOUS!!!",
+      "output": "Give me an F: F!\nGive me an A: A!\nGive me an M: M!\nGive me an O: O!\nGive me a  U: U!\nGive me an S: S!\nWhat does that spell?\nFAMOUS!!!\nFAMOUS!!!\nFAMOUS!!!",
       "comparison": "included",
       "timeout": 10,
       "points": 2
@@ -175,7 +175,7 @@
       "setup": "javac Cheers.java",
       "run": "java Cheers CHECK 0",
       "input": "",
-      "output": "Give me a C: C!\nGive me an H: H!\nGive me an E: E!\nGive me a C: C!\nGive me a K: K!\nWhat does that spell?\n",
+      "output": "Give me a  C: C!\nGive me an H: H!\nGive me an E: E!\nGive me a  C: C!\nGive me a  K: K!\nWhat does that spell?\n",
       "comparison": "exact",
       "timeout": 10,
       "points": 2
@@ -185,7 +185,7 @@
       "setup": "javac Cheers.java",
       "run": "java Cheers Mic 0",
       "input": "",
-      "output": "Give me an M: M!\nGive me an I: I!\nGive me a C: C!\nWhat does that spell?\nMIC!!!",
+      "output": "Give me an M: M!\nGive me an I: I!\nGive me a  C: C!\nWhat does that spell?\nMIC!!!",
       "comparison": "included",
       "timeout": 10,
       "points": 2
@@ -293,7 +293,7 @@
     {
       "name": "Collatz test 2: Args (1, v)",
       "setup": "javac Collatz.java",
-      "run": "java Collatz 1",
+      "run": "java Collatz 1 v",
       "input": "",
       "output": "1 4 2 1 (4)\nEvery one of the first 2 hailstone sequences reached 1.",
       "comparison": "included",
