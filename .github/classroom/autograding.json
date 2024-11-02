@@ -183,7 +183,7 @@
     {
       "name": "Cheers test 9: Args (Mic, 1)", 
       "setup": "javac Cheers.java",
-      "run": "java Cheers Mic 0",
+      "run": "java Cheers Mic 1",
       "input": "",
       "output": "Give me an M: M!\nGive me an I: I!\nGive me a  C: C!\nWhat does that spell?\nMIC!!!",
       "comparison": "included",
