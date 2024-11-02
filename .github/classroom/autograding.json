@@ -295,7 +295,7 @@
       "setup": "javac Collatz.java",
       "run": "java Collatz 1 v",
       "input": "",
-      "output": "1 4 2 1 (4)\nEvery one of the first 2 hailstone sequences reached 1.",
+      "output": "1 4 2 1 (4)\nEvery one of the first 1 hailstone sequences reached 1.",
       "comparison": "included",
       "timeout": 10,
       "points": 3
@@ -305,7 +305,7 @@
       "setup": "javac Collatz.java",
       "run": "java Collatz 2 v",
       "input": "",
-      "output": "1 4 2 1 (42)\n2 1 (2)\nEvery one of the first 2 hailstone sequences reached 1.",
+      "output": "1 4 2 1 (4)\n2 1 (2)\nEvery one of the first 2 hailstone sequences reached 1.",
       "comparison": "included",
       "timeout": 10,
       "points": 3
