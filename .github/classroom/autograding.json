@@ -1,0 +1,395 @@
+{
+  "tests": [
+    {
+      "name": "TimeCalc test 1: Args (12:24, 10)",
+      "setup": "javac TimeCalc.java",
+      "run": "java TimeCalc 12:24 10",
+      "input": "",
+      "output": "12:34",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TimeCalc test 2: Args (10:08, 52)",
+      "setup": "javac TimeCalc.java",
+      "run": "java TimeCalc 10:08 52",
+      "input": "",
+      "output": "11:00",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TimeCalc test 3: Args (23:59, 1)",
+      "setup": "javac TimeCalc.java",
+      "run": "java TimeCalc 23:59 1",
+      "input": "",
+      "output": "00:00",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TimeCalc test 4: Args (07:31, 242)",
+      "setup": "javac TimeCalc.java",
+      "run": "java TimeCalc 07:31 242",
+      "input": "",
+      "output": "11:33",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TimeCalc test 5: Args (03:25, 375)",
+      "setup": "javac TimeCalc.java",
+      "run": "java TimeCalc 03:25 375",
+      "input": "",
+      "output": "09:40",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TimeCalc test 6: Args (17:15, 2880)",
+      "setup": "javac TimeCalc.java",
+      "run": "java TimeCalc 17:15 2880",
+      "input": "",
+      "output": "17:15",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TimeCalc test 7: Args (13:56, 165)",
+      "setup": "javac TimeCalc.java",
+      "run": "java TimeCalc 13:56 165",
+      "input": "",
+      "output": "16:41",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TimeCalc test 8: Args (18:08, 550)",
+      "setup": "javac TimeCalc.java",
+      "run": "java TimeCalc 18:08 550",
+      "input": "",
+      "output": "03:18",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TimeCalc test 9: Args (00:00, 1441)",
+      "setup": "javac TimeCalc.java",
+      "run": "java TimeCalc 00:00 1441",
+      "input": "",
+      "output": "00:01",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TimeCalc test 10: Args (22:16, 10080)",
+      "setup": "javac TimeCalc.java",
+      "run": "java TimeCalc 22:16 10080",
+      "input": "",
+      "output": "22:16",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Cheers test 1: Args (RUNI, 5)",
+      "setup": "javac Cheers.java",
+      "run": "java Cheers RUNI 5",
+      "input": "",  
+      "output": "Give me an R: R!\nGive me a U: U!\nGive me an N: N!\nGive me an I: I!\nWhat does that spell?\nRUNI!!!\nRUNI!!!\nRUNI!!!\nRUNI!!!\nRUNI!!!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Cheers test 2: Args (Go, 3)",
+      "setup": "javac Cheers.java",
+      "run": "java Cheers Go 3",
+      "input": "",  
+      "output": "Give me a G: G!\nGive me an O: O!\nWhat does that spell?\nGO!!!\nGO!!!\nGO!!!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Cheers test 3: Args (HaPPy, 2)",
+      "setup": "javac Cheers.java",
+      "run": "java Cheers HaPPy 2",
+      "input": "",  
+      "output": "Give me an H: H!\nGive me an A: A!\nGive me a P: P!\nGive me a P: P!\nGive me a Y: Y!\nWhat does that spell?\nHAPPY!!!\nHAPPY!!!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Cheers test 4: Args (wool, 4)",
+      "setup": "javac Cheers.java",
+      "run": "java Cheers wool 4",
+      "input": "",  
+      "output": "Give me a W: W!\nGive me an O: O!\nGive me an O: O!\nGive me an L: L!\nWhat does that spell?\nWOOL!!!\nWOOL!!!\nWOOL!!!\nWOOL!!!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Cheers test 5: Args (YAY, 1)",
+      "setup": "javac Cheers.java",
+      "run": "java Cheers YAY 1",
+      "input": "",  
+      "output": "Give me a Y: Y!\nGive me an A: A!\nGive me a Y: Y!\nWhat does that spell?\nYAY!!!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Cheers test 6: Args (EXceL, 2)",
+      "setup": "javac Cheers.java",
+      "run": "java Cheers EXceL 2",
+      "input": "",
+      "output": "Give me an E: E!\nGive me an X: X!\nGive me a C: C!\nGive me an E: E!\nGive me an L: L!\nWhat does that spell?\nEXCEL!!!\nEXCEL!!!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Cheers test 7: Args (FAMOUS, 3)", 
+      "setup": "javac Cheers.java",
+      "run": "java Cheers FAMOUS 3",
+      "input": "",
+      "output": "Give me an F: F!\nGive me an A: A!\nGive me an M: M!\nGive me an O: O!\nGive me a U: U!\nGive me an S: S!\nWhat does that spell?\nFAMOUS!!!\nFAMOUS!!!\nFAMOUS!!!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Cheers test 8: Args (CHECK, 0)", 
+      "setup": "javac Cheers.java",
+      "run": "java Cheers CHECK 0",
+      "input": "",
+      "output": "Give me a C: C!\nGive me an H: H!\nGive me an E: E!\nGive me a C: C!\nGive me a K: K!\nWhat does that spell?\n",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Cheers test 9: Args (Mic, 1)", 
+      "setup": "javac Cheers.java",
+      "run": "java Cheers Mic 0",
+      "input": "",
+      "output": "Give me an M: M!\nGive me an I: I!\nGive me a C: C!\nWhat does that spell?\nMIC!!!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Cheers test 10: Args (Hi, 10)", 
+      "setup": "javac Cheers.java",
+      "run": "java Cheers Hi 10",
+      "input": "",
+      "output": "Give me an H: H!\nGive me an I: I!\nWhat does that spell?\nHI!!!\nHI!!!\nHI!!!\nHI!!!\nHI!!!\nHI!!!\nHI!!!\nHI!!!\nHI!!!\nHI!!!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "CalcPi test 1: Args (1)",
+      "setup": "javac CalcPi.java",
+      "run": "java CalcPi 1",
+      "input": "",
+      "output": "pi according to Java: 3.141592653589793\npi, approximated:     4.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "CalcPi test 2: Args (3)",
+      "setup": "javac CalcPi.java",
+      "run": "java CalcPi 3",
+      "input": "",
+      "output": "pi according to Java: 3.141592653589793\npi, approximated:     3.466666666666667",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "CalcPi test 3: Args (5)",
+      "setup": "javac CalcPi.java",
+      "run": "java CalcPi 5",
+      "input": "",
+      "output": "pi according to Java: 3.141592653589793\npi, approximated:     3.3396825396825403",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "CalcPi test 4: Args (10)",
+      "setup": "javac CalcPi.java",
+      "run": "java CalcPi 10",
+      "input": "",
+      "output": "pi according to Java: 3.141592653589793\npi, approximated:     3.0418396189294032",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "CalcPi test 5: Args (20)",
+      "setup": "javac CalcPi.java",
+      "run": "java CalcPi 20",
+      "input": "",
+      "output": "pi according to Java: 3.141592653589793\npi, approximated:     3.09162380666784",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "CalcPi test 6: Args (100)",
+      "setup": "javac CalcPi.java",
+      "run": "java CalcPi 100",
+      "input": "",
+      "output": "pi according to Java: 3.141592653589793\npi, approximated:     3.1315929035585537",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "CalcPi test 7: Args (1000)",
+      "setup": "javac CalcPi.java",
+      "run": "java CalcPi 1000",
+      "input": "",
+      "output": "pi according to Java: 3.141592653589793\npi, approximated:     3.140592653839794",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "CalcPi test 8: Args (10000)",
+      "setup": "javac CalcPi.java",
+      "run": "java CalcPi 10000",
+      "input": "",
+      "output": "pi according to Java: 3.141592653589793\npi, approximated:     3.1414926535900345",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "Collatz test 1: Args (1, c)",
+      "setup": "javac Collatz.java",
+      "run": "java Collatz 1 c",
+      "input": "",
+      "output": "Every one of the first 1 hailstone sequences reached 1.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Collatz test 2: Args (1, v)",
+      "setup": "javac Collatz.java",
+      "run": "java Collatz 1",
+      "input": "",
+      "output": "1 4 2 1 (4)\nEvery one of the first 2 hailstone sequences reached 1.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Collatz test 3: Args (2, v)",
+      "setup": "javac Collatz.java",
+      "run": "java Collatz 2 v",
+      "input": "",
+      "output": "1 4 2 1 (42)\n2 1 (2)\nEvery one of the first 2 hailstone sequences reached 1.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },  
+    {
+      "name": "Collatz test 3: Args (3, v)",
+      "setup": "javac Collatz.java",
+      "run": "java Collatz 3 v",
+      "input": "",
+      "output": "1 4 2 1 (4)\n2 1 (2)\n3 10 5 16 8 4 2 1 (8)\nEvery one of the first 3 hailstone sequences reached 1.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },    
+    {
+      "name": "Collatz test 4: Args (7, v)",
+      "setup": "javac Collatz.java",
+      "run": "java Collatz 7 v",
+      "input": "",
+      "output": "1 4 2 1 (4)\n2 1 (2)\n3 10 5 16 8 4 2 1 (8)\n4 2 1 (3)\n5 16 8 4 2 1 (6)\n6 3 10 5 16 8 4 2 1 (9)\n7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 (17)\nEvery one of the first 7 hailstone sequences reached 1.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },       
+    {
+      "name": "Collatz test 5: Args (10, v)",
+      "setup": "javac Collatz.java",
+      "run": "java Collatz 10 v",
+      "input": "",
+      "output": "1 4 2 1 (4)\n2 1 (2)\n3 10 5 16 8 4 2 1 (8)\n4 2 1 (3)\n5 16 8 4 2 1 (6)\n6 3 10 5 16 8 4 2 1 (9)\n7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 (17)\n8 4 2 1 (4)\n9 28 14 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 (20)\n10 5 16 8 4 2 1 (7)\nEvery one of the first 10 hailstone sequences reached 1.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },       
+    {
+      "name": "Collatz test 6: Args (20, c)",
+      "setup": "javac Collatz.java",
+      "run": "java Collatz 20 v",
+      "input": "",
+      "output": "Every one of the first 20 hailstone sequences reached 1.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Collatz test 7: Args (50, c)",
+      "setup": "javac Collatz.java",
+      "run": "java Collatz 50 c",
+      "input": "",
+      "output": "Every one of the first 50 hailstone sequences reached 1.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Collatz test 8: Args (100, c)",
+      "setup": "javac Collatz.java",
+      "run": "java Collatz 100 c",
+      "input": "",
+      "output": "Every one of the first 100 hailstone sequences reached 1.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Collatz test 9: Args (1000, c)",
+      "setup": "javac Collatz.java",
+      "run": "java Collatz 1000 c",
+      "input": "",
+      "output": "Every one of the first 1000 hailstone sequences reached 1.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Collatz test 10: Args (10000, c)",
+      "setup": "javac Collatz.java",
+      "run": "java Collatz 10000 c",
+      "input": "",
+      "output": "Every one of the first 10000 hailstone sequences reached 1.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+
+  ]
+}
