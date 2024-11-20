@@ -23,6 +23,7 @@ public class TimeCalc {
         
         // Format the result to hh:mm with leading zeros
         String result = String.format("%02d:%02d", newHours, newMinutes);
+        //helloooo
         
         
         System.out.println(result);
