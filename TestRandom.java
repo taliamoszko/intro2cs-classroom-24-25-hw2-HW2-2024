@@ -2,5 +2,35 @@
 public  class  TestRandom {
 	public static void main(String[]  args) {
 	    // Replace this comment with your code
-	}
+        int N = Integer.parseInt(args[0]);
+
+       
+        int greaterThanHalf = 0;
+        int lessThanOrEqualHalf = 0;
+
+       
+        for (int i = 0; i < N; i++) {
+            double randomValue = Math.random();
+            if (randomValue > 0.5) {
+                greaterThanHalf++;
+            } else {
+                lessThanOrEqualHalf++;
+            }
+        }
+
+       
+        System.out.println("> 0.5: " + greaterThanHalf + " times");
+        System.out.println("<= 0.5: " + lessThanOrEqualHalf + " times");
+
+        // Check if we can calculate the ratio
+        if (lessThanOrEqualHalf == 0) {
+            System.out.println("Ratio: undefined (divide by zero)");
+        } else {
+            // Calculate the ratio (avoid division by zero)
+            double ratio = (double) greaterThanHalf / lessThanOrEqualHalf;
+            System.out.println("Ratio: " + ratio);
+        }
+		//helloooo
+    }
 }
+
